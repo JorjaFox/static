@@ -1,0 +1,51 @@
+/*
+    Genericons
+*/
+
+@import url("genericons/genericons.css");
+
+/* 
+    Open Sans
+    @import url("Open_Sans/OpenSans.css"); 
+*/
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('Open_Sans/OpenSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('Open_Sans/OpenSans-bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('Open_Sans/OpenSans-bolditalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('Open_Sans/OpenSans-italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+/* 
+    Abel
+    @import url("Abel/Abel.css");
+*/
+
+@font-face {
+    font-family: 'Abel';
+    src: url('Abel/Abel-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
