@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Secret Code"
+AuthUserFile "/home/jorjafox/.htpasswds/public_html/content/admin/passwd"
+require valid-user

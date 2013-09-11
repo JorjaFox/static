@@ -18,21 +18,21 @@
 
 @font-face {
     font-family: 'Open Sans';
-    src: url('Open_Sans/OpenSans-bold.ttf') format('truetype');
+    src: url('Open_Sans/OpenSans-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Open Sans';
-    src: url('Open_Sans/OpenSans-bolditalic.ttf') format('truetype');
+    src: url('Open_Sans/OpenSans-BoldItalic.ttf') format('truetype');
     font-weight: bold;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Open Sans';
-    src: url('Open_Sans/OpenSans-italic.ttf') format('truetype');
+    src: url('Open_Sans/OpenSans-Italic.ttf') format('truetype');
     font-weight: normal;
     font-style: italic;
 }
