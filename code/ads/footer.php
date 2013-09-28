@@ -14,4 +14,4 @@
 		 	if (allElements[i].className == 'asky') {allElements[i].innerHTML = '<center><a href=https://www.wepay.com/donations/125987><img src="http://jorjafox.net/content/code/ads/donate.png" alt="Blocking ads is okay, but please donate." /></a></center>';}
  		}
  	}
-</script>
+</script>   
