@@ -21,7 +21,7 @@ if( !$detect->isMobile() && !$detect->isTablet() ){
         		$bit.animate({
         				bottom: '-' + bitHeight - 10 + 'px'
         			}, 200);
-        		if ( (document.location.href.indexOf('subscribe=') > -1) || (document.location.href.indexOf('fb_source=') > -1) ) {
+        		if ( (document.location.href.indexOf('subscribe=') > -1) || (document.location.href.indexOf('fb_source=') > -1) || (document.location.href.indexOf('utm_source=') > -1) ) {
         			open();
         		}
         	}, 300);
