@@ -21,7 +21,7 @@ if( !$detect->isMobile() && !$detect->isTablet() ){
         		$bit.animate({
         				bottom: '-' + bitHeight - 10 + 'px'
         			}, 200);
-        		if ( (document.location.href.indexOf('subscribe=') > -1) || (document.location.href.indexOf('fb_source=') > -1) || (document.location.href.indexOf('utm_source=') > -1) ) {
+        		if ( (document.location.href.indexOf('subscribe=') > -1) || (document.location.href.indexOf('fb_source=') > -1) || (document.location.href.indexOf('utm_source=') > -1) || (document.referrer.match(/^https?:\/\/([^\/]+\.)?tumblr\.com(\/|$)/i)) || (document.referrer.match(/^https?:\/\/([^\/]+\.)?twitter\.com(\/|$)/i)) || (document.referrer.match(/^https?:\/\/([^\/]+\.)?t\.co(\/|$)/i))) {
         			open();
         		}
         	}, 300);
