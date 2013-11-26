@@ -1,5 +1,7 @@
 <?php 
-include("/home/jorjafox/public_html/content/code/mobiledetect/Mobile_Detect.php");
+if ( !class_exists( 'Mobile_Detect' ) ) {
+    include("/home/jorjafox/public_html/content/code/mobiledetect/Mobile_Detect.php");
+}
 
 $detect = new Mobile_Detect;
 
