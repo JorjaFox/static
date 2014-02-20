@@ -1,0 +1,30 @@
+Photo Tricks
+
+// AP
+document.body.innerHTML = document.body.innerHTML.replace(new RegExp('wm=api" alt="', 'g'), '" alt="');
+
+// WireImage
+document.body.innerHTML = document.body.innerHTML.replace(new RegExp('97" alt="', 'g'), '98" alt="');
+document.body.innerHTML = document.body.innerHTML.replace(new RegExp('6" alt="', 'g'), '9" alt="');
+
+// Filmmagic
+document.body.innerHTML = document.body.innerHTML.replace(new RegExp('8B" alt="', 'g'), '8C" alt="');
+
+// Getty Images
+document.body.innerHTML = document.body.innerHTML.replace(new RegExp('%3d%3d', 'g'), '==');
+
+// Otherimages
+
+document.body.innerHTML = document.body.innerHTML.replace(new RegExp('src="http://press.otherimages.com/asset/170/', 'g'), 'width="180px" src="http://press.otherimages.com/asset/600/');
+
+// Patrick McMullan:
+
+This only works on older photos.
+Get the Thumbnail URL. Change "thumbnail" to "selected" and delete "tn".
+
+// www.grosbygroup.com
+document.body.innerHTML = document.body.innerHTML.replace(new RegExp('/tn_', 'g'), '/');
+
+
+// startraksphoto
+document.body.innerHTML = document.body.innerHTML.replace(new RegExp('.jpg" align="middle"', 'g'), 'ff.jpg" align="middle" width="180px"');
