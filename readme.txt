@@ -1,3 +1,3 @@
 Getting Started
 
-mobiledetect
+Fixing mobiledetect
