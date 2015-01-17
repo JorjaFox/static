@@ -1,6 +1,6 @@
-<?php 
+<?php
 if ( !class_exists( 'Mobile_Detect' ) ) {
-    include("/home/jorjafox/public_html/content/code/mobiledetect/Mobile_Detect.php");
+    include(ABSPATH."content/code/mobiledetect/Mobile_Detect.php");
 }
 
 $detect = new Mobile_Detect;
@@ -43,7 +43,7 @@ if( !$detect->isMobile() && !$detect->isTablet() ){
         		$bit.stop();
         		$bit.animate({
         			bottom: '-' + bitHeight - 10 + 'px'
-        		}, 200, function() { 
+        		}, 200, function() {
         			$('a.bsub', $bit).removeClass('open');
         			$('#bitsubscribe', $bit).removeClass('open');
         		});
@@ -58,7 +58,7 @@ if( !$detect->isMobile() && !$detect->isTablet() ){
         	target.keyup(function(e) {
         		if (27 == e.keyCode) close();
         	});
-        	
+
         	$( '#loggedout-follow' ).submit( function() {
         		email = $( '#loggedout-follow-field' ).val();
         		if ( '' === email || !email.match( /^.*@.*\..*$/ ) ) {
