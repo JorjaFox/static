@@ -1,13 +1,3 @@
-<?php
-if ( !class_exists( 'Mobile_Detect' ) ) {
-    include($_SERVER['HOME']."content/code/mobiledetect/Mobile_Detect.php");
-}
-
-$detect = new Mobile_Detect;
-
-if( !$detect->isMobile() && !$detect->isTablet() ){
-?>
-
     <script type="text/javascript" charset="utf-8">
         jQuery.extend(jQuery.easing,
         {
@@ -71,5 +61,3 @@ if( !$detect->isMobile() && !$detect->isTablet() ){
         	});
         });;
     </script>
-<?php
-}
