@@ -1,6 +1,6 @@
 <?php
 if ( !class_exists( 'Mobile_Detect' ) ) {
-    include(ABSPATH."content/code/mobiledetect/Mobile_Detect.php");
+    include($_SERVER['HOME']."content/code/mobiledetect/Mobile_Detect.php");
 }
 
 $detect = new Mobile_Detect;
