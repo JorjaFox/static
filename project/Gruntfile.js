@@ -1,18 +1,26 @@
 module.exports = function(grunt) { 
 	
-	grunt.loadNpmTasks('grunt-contrib-uglify');   
+	grunt.loadNpmTasks('grunt-contrib-uglify'); 
+	grunt.loadNpmTasks('grunt-contrib-concat');  
 
 	grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
+
+		concat: {  
+		    dist: {  
+		        src: '../code/js/dev/*.js',
+		        dest: '../code/js/jfo-content.js',  
+		    },  
+		}, 
+
 		uglify: {
-	    	my_target: {
-				files: {
-	        		'../code/js/jfo-content.min.js': ['../code/js/bit-slideup.js', '../code/js/rum_pingdom.js', '../code/js/rum_site247.js']
-				}
-	    	}
+            build: {  
+                src: '../code/js/jfo-content.js',
+                dest: '../code/js/jfo-content.min.js',
+            }
 		}
 	});
   
-    grunt.registerTask('default', ['uglify'] );  
+    grunt.registerTask('default', ['concat','uglify'] );  
   
 };  
