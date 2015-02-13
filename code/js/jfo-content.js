@@ -1,3 +1,5 @@
+// Slideup part of the site
+
         jQuery.extend(jQuery.easing,
         {
          easeOutCubic: function (x, t, b, c, d) {
@@ -59,7 +61,7 @@
         		return true;
         	});
         });;
-alert("BANDWIDTH LEECH! Please do not steal other people's bandwidth! Remove the reference to overlib.js from your forum html code.");
+// Pingdom RUM
 
 var _prum = [['id', '54dc32c2abe53db40506c88f'],
              ['mark', 'firstbyte', (new Date()).getTime()]];
@@ -70,4 +72,6 @@ var _prum = [['id', '54dc32c2abe53db40506c88f'],
     p.src = '//rum-static.pingdom.net/prum.min.js';
     s.parentNode.insertBefore(p, s);
 })();
+// Site247 RUM
+
 var rumMOKey='5fbddb8dedec6c345d8c608fbcf3708a';(function(){if(window.performance && window.performance.timing && window.performance.navigation) {var site24x7_rum_beacon=document.createElement('script');site24x7_rum_beacon.setAttribute('src','//static.site24x7rum.com/js/rum-beacon-min.js');document.scripts[0].appendChild(site24x7_rum_beacon);}})(window)

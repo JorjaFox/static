@@ -1,3 +1,5 @@
+// Slideup part of the site
+
         jQuery.extend(jQuery.easing,
         {
          easeOutCubic: function (x, t, b, c, d) {

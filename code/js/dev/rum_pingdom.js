@@ -1,3 +1,5 @@
+// Pingdom RUM
+
 var _prum = [['id', '54dc32c2abe53db40506c88f'],
              ['mark', 'firstbyte', (new Date()).getTime()]];
 (function() {
