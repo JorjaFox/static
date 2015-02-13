@@ -1,3 +1,3 @@
 Getting Started
 
-Grunt
+Grunt and scripts
