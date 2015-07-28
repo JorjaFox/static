@@ -35,5 +35,7 @@
     case 2:
         echo "i equals 2";
         break;
+    default:
+       echo "Why are you here?";
 }
 	
