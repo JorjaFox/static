@@ -6,9 +6,9 @@
 	 * 
 	 */
 	 
-	$thisadd = strip_tags($_GET["name"]);
+	$thisad = strip_tags($_GET["name"]);
 	
-	switch ($thisadd) {
+	switch ($thisad) {
 
 	// Project Wonderful Block
     case "halfbanner-234x60":
