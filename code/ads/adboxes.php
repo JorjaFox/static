@@ -1,13 +1,13 @@
 <?php
-	
+
 	/* This code shows the adbox.
-	 * 
+	 *
 	 * To use, pass the varable ?ad=FOO
-	 * 
+	 *
 	 */
-	 
+
 	$thisad = strip_tags($_GET["name"]);
-	
+
 	switch ($thisad) {
 
 	// Project Wonderful Block
@@ -44,7 +44,7 @@
 			<table cellpadding="0" cellspacing="0" style="width:728px;border-style:none;background-color:;"><tr><td><img src="http://www.projectwonderful.com/nojs.php?id=57751&type=5" style="width:728px;height:90px;border-style:none;" usemap="#admap57751" alt="" /></td></tr><tr><td colspan="1"><center><a style="font-size:10px;color:#FFFFFF;text-decoration:none;line-height:1.2;font-weight:bold;font-family:Tahoma, verdana,arial,helvetica,sans-serif;text-transform: none;letter-spacing:normal;text-shadow:none;white-space:normal;word-spacing:normal;" href="http://www.projectwonderful.com/advertisehere.php?id=57751&type=5&tag=40958" target="_blank">Your ad could be here, right now.</a></center></td></tr></table>
 			</noscript>
 			<!-- End Project Wonderful Ad Box Code -->
-			</center>        
+			</center>
         <?php
         break;
     case "medium-rectangle-300x250":
@@ -55,7 +55,7 @@
 			<noscript><map name="admap52059" id="admap52059"><area href="http://www.projectwonderful.com/out_nojs.php?r=0&c=0&id=52059&type=7" shape="rect" coords="0,0,300,250" title="" alt="" target="_blank" /></map>
 			<table cellpadding="0" cellspacing="0" style="width:300px;border-style:none;background-color:;"><tr><td colspan="1"><center><a style="font-size:10px;color:#0000ff;text-decoration:none;line-height:1.2;font-weight:bold;font-family:Tahoma, verdana,arial,helvetica,sans-serif;text-transform: none;letter-spacing:normal;text-shadow:none;white-space:normal;word-spacing:normal;" href="http://www.projectwonderful.com/advertisehere.php?id=52059&type=7&tag=40958" target="_blank">Your ad could be here, right now.</a></center></td></tr><tr><td><img src="http://www.projectwonderful.com/nojs.php?id=52059&type=7" style="width:300px;height:250px;border-style:none;" usemap="#admap52059" alt="" /></td></tr></table>
 			</noscript>
-			<!-- End Project Wonderful Ad Box Code -->        
+			<!-- End Project Wonderful Ad Box Code -->
         <?php
         break;
     case "skyscraper-160x600":
@@ -68,7 +68,7 @@
 			<table cellpadding="0" cellspacing="0" style="width:160px;border-style:none;background-color:;"><tr><td colspan="1"><center><a style="font-size:10px;color:#0000FF;text-decoration:none;line-height:1.2;font-weight:bold;font-family:Tahoma, verdana,arial,helvetica,sans-serif;text-transform: none;letter-spacing:normal;text-shadow:none;white-space:normal;word-spacing:normal;" href="http://www.projectwonderful.com/advertisehere.php?id=57786&type=3&tag=40958" target="_blank">Your ad could be here, right now.</a></center></td></tr><tr><td><img src="http://www.projectwonderful.com/nojs.php?id=57786&type=3" style="width:160px;height:600px;border-style:none;" usemap="#admap57786" alt="" /></td></tr></table>
 			</noscript>
 			<!-- End Project Wonderful Ad Box Code -->
-			</center>       
+			</center>
         <?php
         break;
 
@@ -87,8 +87,22 @@
     case "studiopress-468x60":
         ?><div class="astudio"><center><a target="_new" href="http://www.shareasale.com/r.cfm?b=281075&u=728549&m=28169&urllink=&afftrack="><img src="http://www.shareasale.com/image/28169/TotMCrystal468x60.gif"  alt="StudioPress Theme of the Month" border="0"></a></center></div><?php
         break;
-        
+
+    // Google block
+    case "google-responsive":
+    	?>
+			<!-- JFO Responsive -->
+			<ins class="adsbygoogle"
+			     style="display:block"
+			     data-ad-client="ca-pub-7868382837959636"
+			     data-ad-slot="8167384707"
+			     data-ad-format="auto"></ins>
+			<script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+	<?php
+        break;
+
     default:
        echo "Why are you here?";
 }
-	

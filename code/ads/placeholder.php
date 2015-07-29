@@ -1,6 +1,6 @@
 <?php
 
-include("/home/jorjafox/public_html/content/code/ads/projectwonderful.php");
+include("/home/jorjafox/public_html/content/code/ads/loader.php");
 
 $_GET['name'] = 'leaderboard-728x90';
 include("/home/jorjafox/public_html/content/code/ads/adboxes.php");
