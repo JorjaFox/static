@@ -1,5 +1,3 @@
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
 <!-- Project Wonderful Ad Box Loader -->
 <!-- Put this after the <body> tag at the top of your page -->
 <script type="text/javascript">

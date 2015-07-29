@@ -91,6 +91,7 @@
     // Google block
     case "google-responsive":
     	?>
+    		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 			<!-- JFO Responsive -->
 			<ins class="adsbygoogle"
 			     style="display:block"
@@ -104,6 +105,7 @@
         break;
     case "google-medium-rectangle":
     	?>
+    		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 			<!-- JFO Medium Rectangle -->
 			<ins class="adsbygoogle"
 			     style="display:inline-block;width:300px;height:250px"
