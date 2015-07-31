@@ -8,6 +8,8 @@
 
 	$thisad = strip_tags($_GET["name"]);
 
+	echo '<div class="jfo-adboxes '.$thisad.'">';
+
 	switch ($thisad) {
 
 	// Project Wonderful Block
@@ -119,4 +121,6 @@
 
     default:
        echo "Why are you here?";
+
+	echo '</div>';
 }
