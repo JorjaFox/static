@@ -106,7 +106,7 @@
 */
 
 
-	$folder = '/home/jorjafox/public_html/static/images/logos/';
+	$folder = '/home/jorjafox/public_html/static/content/images/logos/';
 
 
 /*
