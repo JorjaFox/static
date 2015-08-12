@@ -76,10 +76,10 @@
 
 		// LiquidWeb Block
 	    case "liquidweb-120x240":
-	        ?><a href="http://www.liquidweb.com/?RID=JFO123"><img src="http://rgfx.liquidweb.com/banners/120x240.jpg" alt="Liquid Web Fully Managed Web Hosting" width=120 height=240 border=0></a><?php
+	        ?><a href="http://www.liquidweb.com/?RID=JFO123"><img src="//rgfx.liquidweb.com/banners/120x240.jpg" alt="Liquid Web Fully Managed Web Hosting" width=120 height=240 border=0></a><?php
 	        break;
 	    case "liquidweb-325x38":
-	        ?><a href="http://www.liquidweb.com/?RID=JFO123"><img src="http://rgfx.liquidweb.com/banners/poweredby.gif" alt="Managed Web Hosting by Liquid Web" border=0 width=325 height=38></a><?php
+	        ?><a href="http://www.liquidweb.com/?RID=JFO123"><img src="//rgfx.liquidweb.com/banners/poweredby.gif" alt="Managed Web Hosting by Liquid Web" border=0 width=325 height=38></a><?php
 	        break;
 
 		// StudioPress Block
