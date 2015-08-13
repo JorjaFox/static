@@ -1,15 +1,22 @@
 <?php
 
-include("/home/jorjafox/public_html/content/code/ads/projectwonderful.php");
+include("/home/jorjafox/public_html/static/content/code/ads/loader.php");
 
-include("/home/jorjafox/public_html/content/code/ads/leaderboard-728x90.php");
+$_GET['name'] = 'leaderboard-728x90';
+include("/home/jorjafox/public_html/static/content/code/ads/adboxes.php");
 
-include("/home/jorjafox/public_html/content/code/ads/halfbanner-234x60.php");
 
-include("/home/jorjafox/public_html/content/code/ads/line-buttons-500x250.php");
+$_GET['name'] = 'skyscraper-160x600';
+include("/home/jorjafox/public_html/static/content/code/ads/adboxes.php");
 
-include("/home/jorjafox/public_html/content/code/ads/medium-rectangle-300x250.php");
 
-include("/home/jorjafox/public_html/content/code/ads/skyscraper-160x600.php");
+$_GET['name'] = 'line-buttons-500x250';
+include("/home/jorjafox/public_html/static/content/code/ads/adboxes.php");
 
-?>
+/* Disabled
+$_GET['name'] = 'halfbanner-234x60';
+include("/home/jorjafox/public_html/content/code/ads/adboxes.php");
+
+$_GET['name'] = 'medium-rectangle-300x250';
+include("/home/jorjafox/public_html/content/code/ads/adboxes.php");
+*/

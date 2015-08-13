@@ -43,6 +43,8 @@
   <div class="article-author-side">
     <h3>A History of Hate</h3>
 <p>After eighteen years on the web, there are few things I hang on to when it comes to abuse, but Twitter, and it's lack of willingness to protect anyone, gets special treatment.</p>
+
+<p>Jorja is on Twitter as <a href="https://twitter.com/jorjafoxofficia">@jorjafoxofficia</a></p>
   </div>
 
   <article>
