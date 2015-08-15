@@ -13,3 +13,9 @@ include("/home/jorjafox/public_html/static/content/code/ads/adboxes.php");
 
 $_GET['name'] = 'google-responsive';
 include("/home/jorjafox/public_html/static/content/code/ads/adboxes.php");
+
+?><h2>Skyscraper</h2><?php
+
+$_GET['name'] = 'google-skyscraper';
+include("/home/jorjafox/public_html/static/content/code/ads/adboxes.php");
+
