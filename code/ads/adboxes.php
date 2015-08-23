@@ -31,7 +31,7 @@
 				<div id="pw_adbox_43375_4_0"></div>
 				<script type="text/javascript"></script>
 				<noscript><map name="admap43375" id="admap43375"><area href="http://www.projectwonderful.com/out_nojs.php?r=0&c=0&id=43375&type=4" shape="rect" coords="0,0,125,125" title="" alt="" target="_blank" rel="nofollow" /><area href="http://www.projectwonderful.com/out_nojs.php?r=1&c=0&id=43375&type=4" shape="rect" coords="0,125,125,250" title="" alt="" target="_blank" rel="nofollow" /></map>
-				<table cellpadding="0" cellspacing="0" style="width:126px;border-style:none;background-color:;"><tr><td colspan="1"><center><a style="font-size:10px;color:#0000FF;text-decoration:none;line-height:1.2;font-weight:bold;font-family:Tahoma, verdana,arial,helvetica,sans-serif;text-transform: none;letter-spacing:normal;text-shadow:none;white-space:normal;word-spacing:normal;" href="http://www.projectwonderful.com/advertisehere.php?id=43375&type=4&tag=40958" target="_blank">Your ad could be here, right now.</a></center></td></tr><tr><td><img src="http://www.projectwonderful.com/nojs.php?id=43375&type=4" style="width:126px;height:250px;border-style:none;" usemap="#admap43375" alt="" /></td></tr></table>
+				<table cellpadding="0" cellspacing="0" style="width:126px;border-style:none;background-color:;"><tr><td><img src="http://www.projectwonderful.com/nojs.php?id=43375&type=4" style="width:126px;height:250px;border-style:none;" usemap="#admap43375" alt="" /></td></tr><tr><td colspan="1"><center><a style="font-size:10px;color:#0000FF;text-decoration:none;line-height:1.2;font-weight:bold;font-family:Tahoma, verdana,arial,helvetica,sans-serif;text-transform: none;letter-spacing:normal;text-shadow:none;white-space:normal;word-spacing:normal;" href="http://www.projectwonderful.com/advertisehere.php?id=43375&type=4&tag=40958" target="_blank">Your ad could be here, right now.</a></center></td></tr></table>
 				</noscript>
 				<!-- End Project Wonderful Ad Box Code -->
 	        <?php
@@ -84,7 +84,7 @@
 
 		// StudioPress Block
 	    case "studiopress-120x240":
-	        ?><div id="sp_below"><table cellpadding="0" cellspacing="0" style="border-style:none;width:126px;"><tbody><tr><td colspan="1"><center><a style="font-size:10px;color:#0000FF;line-height:1.2;text-decoration:none;font-weight:bold;font-family:tahoma,verdana,arial,helvetica,sans-serif;text-transform: none;letter-spacing:normal;text-shadow:none;white-space:normal;word-spacing:normal;" href="http://www.shareasale.com/r.cfm?b=346199&u=728549&m=28169&urllink=&afftrack=" target="_blank">Your theme could be this cool.</a></center></td></tr><tr><td style="width:125px;vertical-align:top;text-align:center;"><a target="_blank" href="http://www.shareasale.com/r.cfm?b=281069&amp;u=728549&amp;m=28169&amp;urllink=&amp;afftrack="><img src="http://www.shareasale.com/image/28169/TotMCrystal120x240.gif" alt="StudioPress Theme of the Month" border="0" /></a></td></tr></tbody></table></div><?php
+	        ?><a target="_blank" href="http://shareasale.com/r.cfm?b=281069&amp;u=728549&amp;m=28169&amp;urllink=&amp;afftrack="><img src="https://i.shareasale.com/image/28169/TotMCrystal120x240.gif" border="0" alt="StudioPress Theme of the Month" /></a><?php
 	        break;
 	    case "studiopress-468x60":
 	        ?><div class="astudio"><center><a target="_new" href="http://www.shareasale.com/r.cfm?b=281075&u=728549&m=28169&urllink=&afftrack="><img src="http://www.shareasale.com/image/28169/TotMCrystal468x60.gif"  alt="StudioPress Theme of the Month" border="0"></a></center></div><?php
