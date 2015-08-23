@@ -1,5 +1,4 @@
 <!-- Project Wonderful Ad Box Loader -->
-<!-- Put this after the <body> tag at the top of your page -->
 <script type="text/javascript">
    (function(){function pw_load(){
       if(arguments.callee.z)return;else arguments.callee.z=true;
