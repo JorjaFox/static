@@ -6,4 +6,7 @@
 
   ga('create', 'UA-6548280-1', 'auto');
   ga('send', 'pageview');
+
+  setTimeout("ga('send','event','Profitable Engagement','time on page more than 2 minutes')",15000);
+
 </script>
