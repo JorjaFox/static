@@ -61,17 +61,3 @@
         		return true;
         	});
         });;
-// Pingdom RUM
-
-var _prum = [['id', '54dc32c2abe53db40506c88f'],
-             ['mark', 'firstbyte', (new Date()).getTime()]];
-(function() {
-    var s = document.getElementsByTagName('script')[0]
-      , p = document.createElement('script');
-    p.async = 'async';
-    p.src = '//rum-static.pingdom.net/prum.min.js';
-    s.parentNode.insertBefore(p, s);
-})();
-// Site247 RUM
-
-var rumMOKey='5fbddb8dedec6c345d8c608fbcf3708a';(function(){if(window.performance && window.performance.timing && window.performance.navigation) {var site24x7_rum_beacon=document.createElement('script');site24x7_rum_beacon.setAttribute('src','//static.site24x7rum.com/js/rum-beacon-min.js');document.scripts[0].appendChild(site24x7_rum_beacon);}})(window)
