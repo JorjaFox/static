@@ -1,7 +1,7 @@
 {
-  "name": "jfo-content",
+  "name": "jf-content",
   "version": "1.0.0",
-  "description": "JFO Content Scripts",
+  "description": "Fans of LeFox Content Scripts",
   "main": "Gruntfile.js",
   "dependencies": {
     "grunt": "^0.4.5",

@@ -8,7 +8,7 @@
 
 	$thisad = strip_tags($_GET["name"]);
 
-	echo '<div class="jfo-adboxes '.$thisad.'">';
+	echo '<div class="jf-adboxes '.$thisad.'">';
 
 	switch ($thisad) {
 
@@ -139,19 +139,6 @@
 			     style="display:inline-block;width:300px;height:600px"
 			     data-ad-client="ca-pub-7868382837959636"
 			     data-ad-slot="1689081509"></ins>
-			<script>
-			(adsbygoogle = window.adsbygoogle || []).push({});
-			</script>
-		<?php
-	        break;
-		case "google-matched":
-		?>
-			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-			<!-- JFO Matched Content (Leaderboard) -->
-			<ins class="adsbygoogle"
-			     style="display:inline-block;width:728px;height:90px"
-			     data-ad-client="ca-pub-7868382837959636"
-			     data-ad-slot="6683805509"></ins>
 			<script>
 			(adsbygoogle = window.adsbygoogle || []).push({});
 			</script>
