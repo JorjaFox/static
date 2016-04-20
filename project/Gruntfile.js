@@ -9,7 +9,7 @@ module.exports = function(grunt) {
 		concat: {
 		    dist: {
 		        src: '../code/js/dev/*.js',
-		        dest: '../code/js/jfo-content.js',
+		        dest: '../code/js/content.js',
 		    },
 		},
 
@@ -18,8 +18,8 @@ module.exports = function(grunt) {
 		    	mangle: false
 		    },
             build: {
-                src: '../code/js/jfo-content.js',
-                dest: '../code/js/jfo-content.min.js',
+                src: '../code/js/content.js',
+                dest: '../code/js/content.min.js',
             }
 		},
 

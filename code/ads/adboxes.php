@@ -8,7 +8,7 @@
 
 	$thisad = strip_tags($_GET["name"]);
 
-	echo '<div class="jfo-adboxes '.$thisad.'">';
+	echo '<div class="jf-adboxes '.$thisad.'">';
 
 	switch ($thisad) {
 
