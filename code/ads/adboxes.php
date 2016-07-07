@@ -6,6 +6,8 @@
 	 *
 	 */
 
+	require_once '../Mobile_Detect.php';
+
 	$thisad = strip_tags($_GET["name"]);
 
 	echo '<div class="jf-adboxes '.$thisad.'">';
@@ -61,6 +63,8 @@
 	        <?php
 	        break;
 	    case "skyscraper-160x600":
+	    
+	    		if ( !$detect->isMobile() ) {
 	        ?>
 				<center>
 				<!-- Project Wonderful Ad Box Code -->
@@ -72,6 +76,7 @@
 				<!-- End Project Wonderful Ad Box Code -->
 				</center>
 	        <?php
+		    }
 	        break;
 
 		// LiquidWeb Block
@@ -132,7 +137,8 @@
 		<?php
 	        break;
 		case "google-skyscraper":
-		?>
+			if ( $detect->isMobile() ) {
+			?>
 			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 			<!-- Skyscraper -->
 			<ins class="adsbygoogle"
@@ -142,7 +148,8 @@
 			<script>
 			(adsbygoogle = window.adsbygoogle || []).push({});
 			</script>
-		<?php
+			<?php
+			}
 	        break;
 
 	    default:
