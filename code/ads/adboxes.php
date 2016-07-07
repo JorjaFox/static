@@ -112,6 +112,7 @@
 		<?php
 	        break;
 	    case "google-medium-rectangle":
+	    		if ( !$detect->isMobile() ) {
 	    	?>
 	    		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 			<!-- Medium Rectangle -->
@@ -123,8 +124,10 @@
 			(adsbygoogle = window.adsbygoogle || []).push({});
 			</script>
 		<?php
+			}
 	        break;
 	    case "google-large-rectangle":
+	    		if ( !$detect->isMobile() ) {
 	    	?>
 	    		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 			<!-- Large Rectangle -->
@@ -136,9 +139,10 @@
 			(adsbygoogle = window.adsbygoogle || []).push({});
 			</script>
 		<?php
+			}
 	        break;
 		case "google-skyscraper":
-			if ( $detect->isMobile() ) {
+			if ( !$detect->isMobile() ) {
 			?>
 			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 			<!-- Skyscraper -->
