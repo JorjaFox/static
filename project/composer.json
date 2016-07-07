@@ -1,0 +1,26 @@
+{
+	"name": "jorjafox/jf-content",
+	"description": "Fans of LeFox Content Scripts",
+	"license": "WTFPL",
+	"authors": [
+		{
+			"name": "Mika Epstein",
+			"email": "ipstenu@halfelf.org"
+		}
+	],
+	"config": {
+		"platform": {
+		   "php": "5.4"
+		 }
+	},
+	"require": {
+		"mobiledetect/mobiledetectlib": "^2.8"
+	},
+	"scripts": {
+		"post-update-cmd": [
+			"rm -rf ../code/Mobile_Detect.php",
+			"cp -r vendor/mobiledetect/mobiledetectlib/Mobile_Detect.php ../code/",
+			"grunt"
+		]
+	}
+}

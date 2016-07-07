@@ -12,5 +12,9 @@
     "grunt-contrib-uglify": "^0.7.0"
   },
   "author": "Mika Epstein <ipstenu@halfelf.org>",
-  "license": "WTF"
+  "license": "WTFPL",
+  "repository": {
+    "type": "git",
+    "url": "jorjafox@ftp.jorjafox.net:/home/jorjafox/repositories/content.git"
+  }
 }
