@@ -83,12 +83,12 @@ switch ($thisad) {
 			<?php
 		break;
 
-	// LiquidWeb Block
-	case "liquidweb-120x240":
-		?><a href="http://www.liquidweb.com/?RID=JFO123"><img src="//rgfx.liquidweb.com/banners/120x240.jpg" alt="Liquid Web Fully Managed Web Hosting" width=120 height=240 border=0></a><?php
+	// LiquidWeb Block 
+	case "liquidweb-120x240": // Acutally 120x60 for reasons
+		?><a href="//liquidweb.evyy.net/c/294289/297315/4464"><img src="//a.impactradius-go.com/display-ad/4464-297315" border="0" alt="Liquid Web Managed Web Hosting" width="120" height="60"/></a><img height="0" width="0" src="//liquidweb.evyy.net/i/294289/297315/4464" style="position:absolute;visibility:hidden;" border="0" /><?php
 		break;
 	case "liquidweb-325x38":
-		?><a href="http://www.liquidweb.com/?RID=JFO123"><img src="//rgfx.liquidweb.com/banners/poweredby.gif" alt="Managed Web Hosting by Liquid Web" border=0 width=325 height=38></a><?php
+		?><a href="//liquidweb.evyy.net/c/294289/297312/4464"><img src="//a.impactradius-go.com/display-ad/4464-297312" border="0" alt="Liquid Web Managed Web Hosting" width="325" height="38"/></a><img height="0" width="0" src="//liquidweb.evyy.net/i/294289/297312/4464" style="position:absolute;visibility:hidden;" border="0" /><?php
 		break;
 
 	// StudioPress Block
