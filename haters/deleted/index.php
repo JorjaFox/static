@@ -24,7 +24,7 @@
 
 <div class="navigation-wrapper">
 	<div class="site-name">
-		<a href="http://jorjafox.net">Jorja Fox: Online</a>
+		<a href="https://jorjafox.net">Jorja Fox: Online</a>
 	</div><!-- /.site-name -->
 
 	<div class="top-navigation">

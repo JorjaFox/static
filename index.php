@@ -1,3 +1,3 @@
 <?php
-header( 'Location: http://jorjafox.net' ) ;
+header( 'Location: https://jorjafox.net' ) ;
 ?>
