@@ -2,7 +2,7 @@
 
 /* This code shows the adbox.
  *
- * To use, pass the varable ?ad=FOO
+ * To use, pass the variable ?ad=FOO
  *
  */
 
@@ -83,7 +83,7 @@ switch ($thisad) {
 			<?php
 		break;
 
-	// LiquidWeb Block 
+	// LiquidWeb Block
 	case "liquidweb-120x240": // Acutally 120x60 for reasons
 		?><a href="//liquidweb.evyy.net/c/294289/297315/4464"><img src="//a.impactradius-go.com/display-ad/4464-297315" border="0" alt="Liquid Web Managed Web Hosting" width="120" height="60"/></a><img height="0" width="0" src="//liquidweb.evyy.net/i/294289/297315/4464" style="position:absolute;visibility:hidden;" border="0" /><?php
 		break;
