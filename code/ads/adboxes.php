@@ -6,7 +6,7 @@
  *
  */
 
-require_once '/home/jorjafox/public_html/static/content/code/Mobile_Detect.php';
+require_once 'Mobile_Detect.php';
 $detect = new Mobile_Detect;
 
 $thisad = strip_tags($_GET["name"]);

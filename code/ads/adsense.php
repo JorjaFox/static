@@ -2,20 +2,20 @@
 
 <?php
 
-include("/home/jorjafox/public_html/static/content/code/ads/loader.php");
+include( 'loader.php' );
 
 ?><h2>Medium Rectangle</h2><?php
 
 $_GET['name'] = 'google-medium-rectangle';
-include("/home/jorjafox/public_html/static/content/code/ads/adboxes.php");
+include( 'adboxes.php' );
 
 ?><h2>Responsive</h2><?php
 
 $_GET['name'] = 'google-responsive';
-include("/home/jorjafox/public_html/static/content/code/ads/adboxes.php");
+include( 'adboxes.php' );
 
 ?><h2>Skyscraper</h2><?php
 
 $_GET['name'] = 'google-skyscraper';
-include("/home/jorjafox/public_html/static/content/code/ads/adboxes.php");
+include( 'adboxes.php' );
 
