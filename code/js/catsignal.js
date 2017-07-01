@@ -1,4 +1,6 @@
-<script type="text/javascript">
+// The Cat Signal
+// https://members.internetdefenseleague.org
+
 window._idl = {};
 _idl.variant = "modal";
 (function() {
@@ -7,4 +9,5 @@ _idl.variant = "modal";
     idl.src = 'https://members.internetdefenseleague.org/include/?url=' + (_idl.url || '') + '&campaign=' + (_idl.campaign || '') + '&variant=' + (_idl.variant || 'modal');
     document.getElementsByTagName('body')[0].appendChild(idl);
 })();
-</script>
+
+// End Cat Signal
