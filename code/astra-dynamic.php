@@ -2,8 +2,8 @@
 
 $valid_types = array( 'addon', 'theme' );
 $filename    = array(
-	'addon' => '/home/jorjafox/jorjafox.net/static/wordpress/astra-addon/astra-addon-dynamic-css-post-13721.css',
-	'theme' => '/home/jorjafox/jorjafox.net/static/wordpress/astra/astra-theme-dynamic-css-post-13721.css',
+	'addon' => '/home/jorjafox/jorjafox.net/static/wordpress/astra-addon/astra-addon-dynamic-css-post-17791.css',
+	'theme' => '/home/jorjafox/jorjafox.net/static/wordpress/astra/astra-theme-dynamic-css-post-17791.css',
 );
 $backup      = array(
 	'addon' => '/home/jorjafox/jorjafox.net/static/content/astra/astra-addon-dynamic.css',
