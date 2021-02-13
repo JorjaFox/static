@@ -1,9 +1,15 @@
 <?php
 
+/*
+This file echos out a CSS file that changes as Astra changes.
+
+Page 13271 == https://jorjafox.net/tos/
+ */
+
 $valid_types = array( 'addon', 'theme' );
 $filename    = array(
-	'addon' => '/home/jorjafox/jorjafox.net/static/wordpress/astra-addon/astra-addon-dynamic-css-post-17791.css',
-	'theme' => '/home/jorjafox/jorjafox.net/static/wordpress/astra/astra-theme-dynamic-css-post-17791.css',
+	'addon' => '/home/jorjafox/jorjafox.net/static/wordpress/astra-addon/astra-addon-dynamic-css-post-13721.css',
+	'theme' => '/home/jorjafox/jorjafox.net/static/wordpress/astra/astra-theme-dynamic-css-post-13721.css',
 );
 $backup      = array(
 	'addon' => '/home/jorjafox/jorjafox.net/static/content/astra/astra-addon-dynamic.css',
